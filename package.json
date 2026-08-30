@@ -1,0 +1,29 @@
+{
+	"name": "ctk",
+	"version": "0.1.0",
+	"description": "Count of Tokens — how many tokens a file weighs for an LLM",
+	"type": "module",
+	"bin": {
+		"ctk": "src/main.ts"
+	},
+	"scripts": {
+		"dev": "bun run src/main.ts",
+		"lint": "biome check .",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"js-tiktoken": "^1.0.10"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.0.0",
+		"@types/bun": "^1.2.0",
+		"typescript": "^5.7.0"
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "11.24.0",
+			"onFail": "download"
+		}
+	}
+}
