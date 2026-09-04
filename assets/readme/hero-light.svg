@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">ctk — Count of Tokens</title>
+  <desc id="hero-desc">ctk counts how many tokens a file weighs in an LLM context window. Terminal session with real output: ctk src/main.ts prints 178, ctk LICENSE prints 222, echo hello world piped to ctk prints 3.</desc>
+
+  <rect width="1200" height="330" rx="16" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1.5"/>
+
+  <g id="title-block" transform="translate(64 0)">
+    <text x="0" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" letter-spacing="5" fill="#59636E">COUNT OF TOKENS</text>
+    <text x="-4" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="128" font-weight="700" fill="#1F2328">ctk</text>
+    <rect x="238" y="108" width="26" height="66" fill="#1A7F37"/>
+    <text x="0" y="250" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" fill="#1F2328">Token cost of any file. One command.</text>
+    <text x="0" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" fill="#59636E">o200k_base · offline · pipeable</text>
+  </g>
+
+  <g id="terminal-proof" transform="translate(656 45)">
+    <rect width="480" height="240" rx="12" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+    <circle cx="32" cy="26" r="6" fill="#FF5F57"/>
+    <circle cx="54" cy="26" r="6" fill="#FEBC2E"/>
+    <circle cx="76" cy="26" r="6" fill="#28C840"/>
+    <text x="240" y="31" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#59636E">agent@repo — ctk</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">
+      <text x="32" y="72"><tspan fill="#1A7F37">$</tspan><tspan fill="#1F2328" dx="10">ctk src/main.ts</tspan></text>
+      <text x="32" y="102" font-size="25" font-weight="700" fill="#9A6700">178</text>
+      <text x="32" y="136"><tspan fill="#1A7F37">$</tspan><tspan fill="#1F2328" dx="10">ctk LICENSE</tspan></text>
+      <text x="32" y="166" font-size="25" font-weight="700" fill="#9A6700">222</text>
+      <text x="32" y="200"><tspan fill="#1A7F37">$</tspan><tspan fill="#1F2328" dx="10">echo "hello world" | ctk</tspan></text>
+      <text x="32" y="230" font-size="25" font-weight="700" fill="#9A6700">3</text>
+      <rect x="62" y="208" width="12" height="26" fill="#1A7F37"/>
+    </g>
+  </g>
+</svg>

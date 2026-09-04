@@ -2,6 +2,7 @@
 	"name": "ctk",
 	"version": "0.1.0",
 	"description": "Count of Tokens — how many tokens a file weighs for an LLM",
+	"license": "MIT",
 	"type": "module",
 	"bin": {
 		"ctk": "src/main.ts"
